@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,48 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
-<body>
 
-    <h1>Contéudo</h1>
-    
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning navbar-dark">
+        <div class="container">
+            <!-- Logo -->
+
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="140">
+            </a>
+
+            <!-- Botão Hambúrguer -->
+
+            <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="#">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="#">Benefícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="#">Preços</a>
+                    </li>
+                </ul>
+                <!-- Botão Entrar -->
+
+                <a href="#" class="btn btn-light fw-semibold"> Entrar </a>
+            </div>
+        </div>
+    </nav>
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
